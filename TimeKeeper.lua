@@ -160,6 +160,7 @@ Timer.new = function(Wait)
 	local CallbackStates = {}
 	for State in next, TimerEnum do
 		CallbackStates[State] = {}
+		print("Test")
 	end
 
 	return setmetatable({
